@@ -8,3 +8,19 @@ Please cite the following paper if you use Global-State Aware Automatic NUMA Bal
 Jianguo Liu and Zhibin Yu. 2024. Global-State Aware Automatic NUMA Balancing. In Proceedings of the 15th Asia-Pacific Symposium on Internetware (Internetware '24). Association for Computing Machinery, New York, NY, USA, 317–326. https://doi.org/10.1145/3671016.3671380
 
 ## How to Use
+
+### Complile
+
+```bash
+gcc gsa_auto_numa_arm.c -o gsa_auto_numa_arm
+or
+gcc gsa_auto_numa_x86.c -o gsa_auto_numa_x86
+```
+
+### Run
+
+```bash
+./gsa_auto_numa_arm 
+or
+./gsa_auto_numa_x86
+```
